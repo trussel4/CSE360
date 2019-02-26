@@ -15,32 +15,27 @@ public class Calculator {
 	}
 	//returns the total value in the calculator thus far
 	public int getTotal () {
-		return total;
+		return 0;
 	}
 	
 	//will add values given an int (value)
 	public void add (int value) {
-		total = total + value;
+
 	}
 	
 	//will subtract values given an int (value)
 	public void subtract (int value) {
-		total = total - value;
+
 	}
 	
 	//will multiply values given an int (value)
 	public void multiply (int value) {
-		total = total * value;
+
 	}
 	
 	//will divide values given an int (value)
 	public void divide (int value) {
-		if(value == 0)
-		{
-			total = 0;
-		else
-			total = total / value;
-		}
+
 	}
 	
 	//will return the history of the calculator
